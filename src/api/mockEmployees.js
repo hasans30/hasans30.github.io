@@ -5,23 +5,23 @@ import delay from './delay';
 // All calls return promises.
 const employees = [
   {
-    name: "Hasan",
+    name: "EmpName1",
     Address: "Bellevue,WA",
-    Phone: "425-588-7789",
-    department: "SFW-DICE"
+    Phone: "425-888-8888",
+    department: "Software"
   },
   {
-    name: "Abhishek",
+    name: "EmpName2",
     Address: "Shammamish,WA",
-    Phone: "425-588-7789",
+    Phone: "425-888-8888",
     department: "AI"
     
   },
   {
-    name: "Mansoorm",
+    name: "EmpName3"
     Address: "Redmond,WA",
-    Phone: "425-588-7789",
-    department: "SFW-Exp"
+    Phone: "425-888-8888",
+    department: "AI"
     
   },
 ];
