@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1024px, initial-scale=1.0">
+    <title>test</title>
+</head>
+<body>
+    <script src="//unpkg.com/react@16.8.6/umd/react.development.js"></script>
+    <script src="//unpkg.com/react-dom@16.8.6/umd/react-dom.development.js"></script>
+    <script src="//unpkg.com/office-ui-fabric-react@7/dist/office-ui-fabric-react.js"></script>
+    <script src="//unpkg.com/@uifabric/react-hooks@7/dist/react-hooks.js"></script>
+<div id="content"></div>
+</body>
+<script>"use strict";
+var _a = window.Fabric,Dropdown = _a.Dropdown,IDropdown = _a.IDropdown,PrimaryButton = _a.PrimaryButton,IStackTokens = _a.IStackTokens,Stack = _a.Stack,Fabric = _a.Fabric,initializeIcons = _a.initializeIcons;
+// Initialize icons in case this example uses them
+initializeIcons();
+var dropdownStyles = { dropdown: { width: 300 } };
+var DropdownRequiredExample = function () {
+  var dropdownRef = React.createRef();
+  var onSetFocus = function () {return dropdownRef.current.focus(true);};
+  var stackTokens = { childrenGap: 20 };
+  return React.createElement(Stack, { tokens: stackTokens, verticalAlign: "end" },
+  React.createElement(Stack, { horizontal: true, tokens: stackTokens, verticalAlign: "end" },
+  React.createElement(Dropdown, { componentRef: dropdownRef, placeholder: "Select an option", label: "Required dropdown example", options: [{"key":"7c6f3a3acc044fe0ad17c64f0e676371","text":"Test Item-11f38684-d8b7-4dad-8273-7f11d1e58e48"},{"key":"209ea07ffd9c45939fa694e6cb762278","text":"Test Item-1d60fc0d-9975-4a44-8ab3-a2da0831336a"},{"key":"32c420020d1141d99df69b7214441c68","text":"Test Item-2974ef91-7be6-47a9-8568-b10feb4b2c29"},{"key":"66ee89c04c264a40b16d73f2813155f7","text":"Test Item-41dc5329-0510-469f-a537-e6e5d1fc1ebe"},{"key":"65e198bdfbee472b90761828662e1f98","text":"Test Item-430d06e8-5da5-4499-81e4-2e2a9ac447b4"},{"key":"61b1b33a57a44a5eba763216972cfaef","text":"Test Item-4ce4a860-c90e-4570-a80b-bed2704ff9d8"},{"key":"16ffb7aacf0e433d97bc42f807a8476a","text":"Test Item-5b344b29-cabf-406d-a5a0-6d7841a663e2"},{"key":"e8b6980b39a24a608f8361b128e5db54","text":"Test Item-61bfaebd-7064-4d05-ba70-a7420b001f4f"},{"key":"1f99c8a09c8b4886b77c4924b1ea4d36","text":"Test Item-8ab1ec12-e719-4ab6-a0a3-ed538143d6d3"},{"key":"d4ae1937cff3433b9a59ba37e816df84","text":"Test Item-8cab212f-6059-4857-9361-901883675ba1"},{"key":"cf1553f0e2784ef7a30360cc03e131c9","text":"Test Item-921e8f71-95b9-4d87-bf67-492f0ebb88f3"},{"key":"d7d911957f1940cfafa56dfb808a93ee","text":"Test Item-92b5bf8e-62aa-451b-bcaf-2a13eac63347"},{"key":"599a9bbaca58400880d173e9ded83a13","text":"Test Item-95ea0a5e-18d8-4ecd-968c-264382f817fd"},{"key":"b03f7d6ae36c401abd0cc5e53ae89dca","text":"Test Item-9ddbc8c3-1bf5-481e-a63b-b19e132698cf"},{"key":"eafa4c10c2a34025bf727e3f5a56c907","text":"Test Item-ae7b7c66-95aa-47b1-9af1-48c42f8f6946"},{"key":"6ba1144c5a2541d4b0334d8c73442e0f","text":"Test Item-b56287c8-97c3-488c-b2ce-a5cac463b29e"},{"key":"25377159dc6349568758c965cf38804f","text":"Test Item-b98ec688-52e3-43a3-bb10-6196014f2fd9"},{"key":"61257cc0b6a9469d8af6fea190b41e2a","text":"Test Item-da35bb3d-090b-4ca5-833a-22d0b393e108"},{"key":"f40b1ab45a0e41cd89db643575ca3493","text":"Test Item-de309e91-5b18-48da-b111-bd08407c770f"},{"key":"921971c955a7405ca33f6dd504cf0fd2","text":"Test Item-e3323bd7-22b6-4d69-a913-8377ce765edb"}],
+    required: true, styles: dropdownStyles }),
+  React.createElement(PrimaryButton, { text: "Set focus",
+    // eslint-disable-next-line react/jsx-no-bind
+    onClick: onSetFocus }))
+);
+};
+var DropdownRequiredExampleWrapper = function () {return React.createElement(Fabric, null,
+  React.createElement(DropdownRequiredExample, null));};
+ReactDOM.render(React.createElement(DropdownRequiredExampleWrapper, null), document.getElementById("content"));</script>
+</html>
+
