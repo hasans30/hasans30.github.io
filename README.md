@@ -30,6 +30,23 @@
 
 ---
 
+
+## 🎥 Demo
+
+### Platform Walkthrough Video
+
+> **Note**: The demo video showcases the complete patient journey from WhatsApp message to appointment confirmation. All phone numbers and personal information have been masked to prevent spam and protect privacy.
+
+**Demo Coverage:**
+1. Patient initiates conversation via WhatsApp
+2. AI-powered chatbot responds with contextual information
+3. Patient requests appointment booking
+4. System generates secure payment link
+5. Payment processing through Razorpay
+6. Automated confirmation and appointment details sent via WhatsApp
+
+**Video Placeholder**: *[Video to be embedded here with masked phone numbers]*
+---
 ## 🎯 What This Project Does
 
 **WhatsApp Intelligence** is an AI-powered customer engagement platform that transforms WhatsApp into an intelligent business communication hub for healthcare providers. The platform enables automated, context-aware patient interactions at scale while maintaining personalization and compliance.
@@ -275,25 +292,6 @@ A unified WhatsApp-based platform that:
    - Patient churn prediction
    - Optimal appointment scheduling using ML
    - Revenue forecasting and capacity planning
-
----
-
-## 🎥 Demo
-
-### Platform Walkthrough Video
-
-> **Note**: The demo video showcases the complete patient journey from WhatsApp message to appointment confirmation. All phone numbers and personal information have been masked to prevent spam and protect privacy.
-
-**Demo Coverage:**
-1. Patient initiates conversation via WhatsApp
-2. AI-powered chatbot responds with contextual information
-3. Patient requests appointment booking
-4. System generates secure payment link
-5. Payment processing through Razorpay
-6. Automated confirmation and appointment details sent via WhatsApp
-7. Admin dashboard showing conversation tracking and analytics
-
-**Video Placeholder**: *[Video to be embedded here with masked phone numbers]*
 
 ---
 
