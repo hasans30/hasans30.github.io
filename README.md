@@ -330,6 +330,7 @@ A unified WhatsApp-based platform that:
 - Automated website crawling
 - Vector embeddings for semantic search
 - RAG-based response generation
+<img width="2286" height="1326" alt="image" src="https://github.com/user-attachments/assets/4a345b5c-a256-4677-81f2-e95c443a4f64" />
 
 ---
 
