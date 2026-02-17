@@ -44,8 +44,13 @@
 4. System generates secure payment link
 5. Payment processing through Razorpay
 6. Automated confirmation and appointment details sent via WhatsApp
+   
+| **Click to play the Demo video** |
+|-|
+|[![Watch the video](https://github.com/user-attachments/assets/6db55433-0739-441c-8191-f5f4f7c7c8da)](https://www.youtube.com/watch?v=ePXsPcKwynE)|
 
-[![Watch the video](https://github.com/user-attachments/assets/6db55433-0739-441c-8191-f5f4f7c7c8da)](https://www.youtube.com/watch?v=ePXsPcKwynE)
+
+
 
 ---
 ## 🎯 What This Project Does
